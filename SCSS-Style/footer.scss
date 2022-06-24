@@ -1,0 +1,38 @@
+footer {
+    section {
+        padding-left: 20% !important;
+        padding-right: 20% !important;
+
+        div {
+            article {
+                h3{
+                    color: #4ebddf!important;
+                }
+                p{
+                    color:white;
+                }
+                input{
+                    border-radius: 5px;
+                }
+                nav{
+                    ul{
+                        padding: 0%!important;
+                        li{
+                            list-style-type: none;
+                            a{
+                               text-decoration: none;
+                               color: #bfbfbf;
+                            }
+                            a:hover{
+                                color: $digiyellow;
+                            }
+                        
+                        }
+                    }
+                }
+            }
+
+        }
+
+    }
+}

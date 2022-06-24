@@ -1,0 +1,37 @@
+.section-title-border {
+    border-bottom: 3px solid  $digiblue;
+}
+
+.text-yellow{
+    color: $digiyellow;
+}
+.text-blue{
+    color: $digiblue ;
+}
+
+.background-blue{
+ background-color: $digiblue;
+}
+.size-logo{
+    width: 2rem !important;
+    height: 2rem !important;
+}
+.bg-mention{
+    background-color: #011a2d!important;
+    padding: 0%!important;
+    margin: 0%!important;
+}
+.link-mention{
+    text-decoration: none;
+    color: #bfbfbf;
+}
+.link-mention:hover{
+    color: $digiyellow;
+}
+*{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.magie{
+    visibility: hidden;
+}
+
