@@ -48,3 +48,17 @@
 .d-inherit{
     flex: inherit!important;
 }
+.hover{
+margin-left: 30%;
+margin-right: 30%;
+width: 40%;
+
+}
+.hover:hover{
+    background-color: $digiblue!important;
+    border-color: $digiblue!important;
+    color: white!important;
+}
+.border-radius{
+    border-radius: 25px!important;
+}

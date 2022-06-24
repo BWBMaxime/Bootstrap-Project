@@ -61,10 +61,30 @@
   flex: inherit !important;
 }
 
+.hover {
+  margin-left: 30%;
+  margin-right: 30%;
+  width: 40%;
+}
+
+.hover:hover {
+  background-color: #003350 !important;
+  border-color: #003350 !important;
+  color: white !important;
+}
+
+.border-radius {
+  border-radius: 25px !important;
+}
+
 header nav a:hover {
   color: rgb(249, 186, 0) !important;
 }
 
+main section {
+  padding-right: 10% !important;
+  padding-left: 10% !important;
+}
 main section table tbody tr:hover {
   background-color: rgb(249, 186, 0);
 }
