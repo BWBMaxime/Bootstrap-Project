@@ -57,6 +57,10 @@
   border-left: 1px solid #F9BA00 !important;
 }
 
+.d-inherit {
+  flex: inherit !important;
+}
+
 header nav a:hover {
   color: rgb(249, 186, 0) !important;
 }
