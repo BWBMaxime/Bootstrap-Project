@@ -43,6 +43,11 @@
   visibility: hidden;
 }
 
+.pad-large {
+  padding-left: 20% !important;
+  padding-right: 20% !important;
+}
+
 header nav a:hover {
   color: rgb(249, 186, 0) !important;
 }
