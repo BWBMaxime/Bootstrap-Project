@@ -1,5 +1,12 @@
 main{
     section{
+        table{
+            tbody{
+                tr:hover{
+                    background-color: $digiyellow;
+                }
+            }
+        }
         a{
             color: white;
             list-style-type: none;

@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,6 +8,7 @@
     <title>Projet 26-06-2022</title>
     <link rel="stylesheet" href="../css/annuaire.css">
 </head>
+
 <body>
     <header class="shadow d-flex justify-content-around">
         <img src="../img/Logo-Diginamic.png" alt="Diginamic - Formation 'Votre passport pour l'emploi numérique'">
@@ -29,117 +31,156 @@
     </header>
     <main class="mb-5">
         <section title="Présentation" class="row background-blue py-3">
-         <div class="pad-large">
-               <a title="Navigation secondaire" href="#">Acceuil > L'équipe diginamic</a>
-               <h1 class="text-white">Découvrez l’équipe Diginamic</h1>
-               <h2 class="text-white h5">Une équipe composée de professionnels de la formation et de l’informatique à votre
-                   service et à votre écoute</h2>
-         </div>
+            <div class="pad-large">
+                <a title="Navigation secondaire" href="#">Acceuil > Toutes les sessions de formation</a>
+                <h1 class="text-white">Calendrier des formations</h1>
+                <h2 class="text-white h5">Trouvez la formation Diginamic qui vous convient, au bon endroit, au bon
+                    moment.</h2>
+            </div>
         </section>
-        <section title="Trombinoscope équipe diginamic" class="row justify-content-evenly mt-4 mt-sm-4">
-            <article class="col-lg-3 mt-3">
-                <div class="card shadow text-center">
-                    <img class="card-img-top rounded-circle border-1 border" src="../img/1.png"
-                        alt="Nom Prénom ( potentielle description )">
-                    <div class="card-body">
-                        <h3 class="h4 text-blue fw-bold">Lionel </h3>
-                        <p class="card-text">Président Directeur Général</p>
-                        <img class="size-logo" src="../img/diginamic.webp" alt="">
-                    </div>
+        <section class="pad-large mt-3 fw-bold h6">
+            <section title="navigation tableaux " class="row">
+                <div class="col">
+                    <label for="Afficher le nombre d'élément dans le tableaux"
+                        aria-label="Afficher le nombre d'élément dans le tableaux" class="">
+                        Afficher
+                        <select name="sessions_length" aria-controls="sessions" class="">
+                            <option value="10">10</option>
+                            <option value="25">25</option>
+                            <option value="50">50</option>
+                            <option value="100">100</option>
+                        </select>
+                        éléments
+                    </label>
                 </div>
-            </article>
-            <article class="col-lg-3 mt-3">
-                <div class="card shadow text-center">
-                    <img class="card-img-top rounded-circle border-1 border" src="../img/2.webp"
-                        alt="Nom Prénom ( potentielle description )">
-                    <div class="card-body">
-                        <h3 class="h4 text-blue fw-bold">Lionel </h3>
-                        <p class="card-text">Président Directeur Général</p>
-                        <img class="size-logo" src="../img/diginamic.webp" alt="">
-                    </div>
+                <div class="col">
+                    <label for="Rechercher un élément du tableaux" class="justify-content-end">
+                        Rechercher :
+                        <input type="text" class="" aria-label="Rechercher">
+                    </label>
                 </div>
-            </article>
-            <article class="col-lg-3 mt-3">
-                <div class="card shadow text-center">
-                    <img class="card-img-top rounded-circle border-1 border" src="../img/2.webp"
-                        alt="Nom Prénom ( potentielle description )">
-                    <div class="card-body">
-                        <h3 class="h4 text-blue fw-bold">Lionel </h3>
-                        <p class="card-text">Président Directeur Général</p>
-                        <img class="size-logo" src="../img/diginamic.webp" alt="">
-                    </div>
-                </div>
-            </article>
+            </section>
         </section>
-        <section title="Trombinoscope équipe diginamic" class="row justify-content-evenly mt-4 mt-sm-4">
-            <article class="col-lg-3 mt-3">
-                <div class="card shadow text-center">
-                    <img class="card-img-top rounded-circle border-1 border" src="../img/1.png"
-                        alt="Nom Prénom ( potentielle description )">
-                    <div class="card-body">
-                        <h3 class="h4 text-blue fw-bold">Lionel </h3>
-                        <p class="card-text">Président Directeur Général</p>
-                        <img class="size-logo" src="../img/diginamic.webp" alt="">
-                    </div>
-                </div>
-            </article>
-            <article class="col-lg-3 mt-3">
-                <div class="card shadow text-center">
-                    <img class="card-img-top rounded-circle border-1 border" src="../img/2.webp"
-                        alt="Nom Prénom ( potentielle description )">
-                    <div class="card-body">
-                        <h3 class="h4 text-blue fw-bold">Lionel </h3>
-                        <p class="card-text">Président Directeur Général</p>
-                        <img class="size-logo" src="../img/diginamic.webp" alt="">
-                    </div>
-                </div>
-            </article>
-            <article class="col-lg-3 mt-3">
-                <div class="card shadow text-center">
-                    <img class="card-img-top rounded-circle border-1 border" src="../img/2.webp"
-                        alt="Nom Prénom ( potentielle description )">
-                    <div class="card-body">
-                        <h3 class="h4 text-blue fw-bold">Lionel </h3>
-                        <p class="card-text">Président Directeur Général</p>
-                        <img class="size-logo" src="../img/diginamic.webp" alt="">
-                    </div>
-                </div>
-            </article>
+        <section class="pad-large">
+            <table class="table">
+                <thead class="background-blue text-yellow ">
+                    <tr>
+                        <th scope="col" class="border-right border-warning">Date de début
+                            <svg class="text-white-50" xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                fill="currentColor" class="bi bi-chevron-expand" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd"
+                                    d="M3.646 9.146a.5.5 0 0 1 .708 0L8 12.793l3.646-3.647a.5.5 0 0 1 .708.708l-4 4a.5.5 0 0 1-.708 0l-4-4a.5.5 0 0 1 0-.708zm0-2.292a.5.5 0 0 0 .708 0L8 3.207l3.646 3.647a.5.5 0 0 0 .708-.708l-4-4a.5.5 0 0 0-.708 0l-4 4a.5.5 0 0 0 0 .708z" />
+                            </svg>
+                        </th>
+                        <th scope="col">Date de fin
+                            <svg class="text-white-50" xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                fill="currentColor" class="bi bi-chevron-expand" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd"
+                                    d="M3.646 9.146a.5.5 0 0 1 .708 0L8 12.793l3.646-3.647a.5.5 0 0 1 .708.708l-4 4a.5.5 0 0 1-.708 0l-4-4a.5.5 0 0 1 0-.708zm0-2.292a.5.5 0 0 0 .708 0L8 3.207l3.646 3.647a.5.5 0 0 0 .708-.708l-4-4a.5.5 0 0 0-.708 0l-4 4a.5.5 0 0 0 0 .708z" />
+                            </svg>
+                        </th>
+                        <th scope="col">Formation
+                            <svg class="text-white-50" xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                fill="currentColor" class="bi bi-chevron-expand" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd"
+                                    d="M3.646 9.146a.5.5 0 0 1 .708 0L8 12.793l3.646-3.647a.5.5 0 0 1 .708.708l-4 4a.5.5 0 0 1-.708 0l-4-4a.5.5 0 0 1 0-.708zm0-2.292a.5.5 0 0 0 .708 0L8 3.207l3.646 3.647a.5.5 0 0 0 .708-.708l-4-4a.5.5 0 0 0-.708 0l-4 4a.5.5 0 0 0 0 .708z" />
+                            </svg>
+                        </th>
+                        <th scope="col">Lieux 
+                            <svg class="text-white-50" xmlns="http://www.w3.org/2000/svg" width="16"
+                                height="16" fill="currentColor" class="bi bi-chevron-expand" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd"
+                                    d="M3.646 9.146a.5.5 0 0 1 .708 0L8 12.793l3.646-3.647a.5.5 0 0 1 .708.708l-4 4a.5.5 0 0 1-.708 0l-4-4a.5.5 0 0 1 0-.708zm0-2.292a.5.5 0 0 0 .708 0L8 3.207l3.646 3.647a.5.5 0 0 0 .708-.708l-4-4a.5.5 0 0 0-.708 0l-4 4a.5.5 0 0 0 0 .708z" />
+                            </svg>
+                        </th>
+                        <th scope="col">Certification 
+                            <svg class="text-white-50" xmlns="http://www.w3.org/2000/svg"
+                                width="16" height="16" fill="currentColor" class="bi bi-chevron-expand"
+                                viewBox="0 0 16 16">
+                                <path fill-rule="evenodd"
+                                    d="M3.646 9.146a.5.5 0 0 1 .708 0L8 12.793l3.646-3.647a.5.5 0 0 1 .708.708l-4 4a.5.5 0 0 1-.708 0l-4-4a.5.5 0 0 1 0-.708zm0-2.292a.5.5 0 0 0 .708 0L8 3.207l3.646 3.647a.5.5 0 0 0 .708-.708l-4-4a.5.5 0 0 0-.708 0l-4 4a.5.5 0 0 0 0 .708z" />
+                            </svg>
+                        </th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th scope="row">02/11/2022</th>
+                        <td class="table-border">12/12/2022</td>
+                        <td class="table-border">Développeur Web et mobile</td>
+                        <td class="table-border">Montpellier</td>
+                        <td>BAC+2 - Titre RNCP niveau 5</td>
+                    </tr>
+                    <tr class="tr-yellow-light">
+                        <th scope="row">02/11/2022</th>
+                        <td class="table-border">12/12/2022</td>
+                        <td class="table-border">Développeur Web et mobile</td>
+                        <td class="table-border">Montpellier</td>
+                        <td>BAC+2 - Titre RNCP niveau 5</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">02/11/2022</th>
+                        <td class="table-border">12/12/2022</td>
+                        <td class="table-border">Développeur Web et mobile</td>
+                        <td class="table-border">Montpellier</td>
+                        <td>BAC+2 - Titre RNCP niveau 5</td>
+                    </tr>
+                    <tr class="tr-yellow-light">
+                        <th scope="row">02/11/2022</th>
+                        <td class="table-border">12/12/2022</td>
+                        <td class="table-border">Développeur Web et mobile</td>
+                        <td class="table-border">Montpellier</td>
+                        <td>BAC+2 - Titre RNCP niveau 5</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">02/11/2022</th>
+                        <td class="table-border">12/12/2022</td>
+                        <td class="table-border">Développeur Web et mobile</td>
+                        <td class="table-border">Montpellier</td>
+                        <td>BAC+2 - Titre RNCP niveau 5</td>
+                    </tr>
+                    <tr class="tr-yellow-light">
+                        <th scope="row">02/11/2022</th>
+                        <td class="table-border">12/12/2022</td>
+                        <td class="table-border">Développeur Web et mobile</td>
+                        <td class="table-border">Montpellier</td>
+                        <td>BAC+2 - Titre RNCP niveau 5</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">02/11/2022</th>
+                        <td class="table-border">12/12/2022</td>
+                        <td class="table-border">Développeur Web et mobile</td>
+                        <td class="table-border">Montpellier</td>
+                        <td>BAC+2 - Titre RNCP niveau 5</td>
+                    </tr>
+                    <tr class="tr-yellow-light">
+                        <th scope="row">02/11/2022</th>
+                        <td class="table-border">12/12/2022</td>
+                        <td class="table-border">Développeur Web et mobile</td>
+                        <td class="table-border">Montpellier</td>
+                        <td class="table-border">BAC+2 - Titre RNCP niveau 5</td>
+                    </tr>
+                </tbody>
+            </table>
         </section>
-        <section title="Trombinoscope équipe diginamic" class="row justify-content-evenly mt-4 mt-sm-4">
-            <article class="col-lg-3 mt-3">
-                <div class="card shadow text-center">
-                    <img class="card-img-top rounded-circle border-1 border" src="../img/1.png"
-                        alt="Nom Prénom ( potentielle description )">
-                    <div class="card-body">
-                        <h3 class="h4 text-blue fw-bold">Lionel </h3>
-                        <p class="card-text">Président Directeur Général</p>
-                        <img class="size-logo" src="../img/diginamic.webp" alt="">
-                    </div>
+        <section class="pad-large mt-3 fw-bold h6 justify-content-between ">
+            <section title="classification des éléments" class="row ">
+                <div class="col">
+                   
+                    <p> Affichage de l'élément 1 à 14 sur 14 éléments</p>
                 </div>
-            </article>
-            <article class="col-lg-3 mt-3">
-                <div class="card shadow text-center">
-                    <img class="card-img-top rounded-circle border-1 border" src="../img/2.webp"
-                        alt="Nom Prénom ( potentielle description )">
-                    <div class="card-body">
-                        <h3 class="h4 text-blue fw-bold">Lionel </h3>
-                        <p class="card-text">Président Directeur Général</p>
-                        <img class="size-logo" src="../img/diginamic.webp" alt="">
-                    </div>
+                <div class="col">
+                    <label for="Changer de page" class="">
+                        Précédent
+                        <button class="btn btn-secondary">1</button>
+                        Suivant
+                    </label>
                 </div>
-            </article>
-            <article class="col-lg-3 mt-3">
-                <div class="card shadow text-center">
-                    <img class="card-img-top rounded-circle border-1 border" src="../img/2.webp"
-                        alt="Nom Prénom ( potentielle description )">
-                    <div class="card-body">
-                        <h3 class="h4 text-blue fw-bold">Lionel </h3>
-                        <p class="card-text">Président Directeur Général</p>
-                        <img class="size-logo" src="../img/diginamic.webp" alt="">
-                    </div>
+                <div class="align-content-center">
+                    <button class="btn btn-warning text-uppercase rounded-2">Catalogues des formations </button>
+
                 </div>
-            </article>
+            </section>
         </section>
     </main>
     <footer class="background-blue pt-4 pb-4 ">
@@ -244,10 +285,12 @@
                 </article>
             </div>
         </section>
+
     </footer>
     <section class="d-flex bg-mention justify-content-center" title="mentions légal">
         <p class="text-white">© 2022 Diginamic. Tous droits réservés |</p>
         <a class="link-mention" href="#">Mentions légales</a>
     </section>
 </body>
+
 </html>
