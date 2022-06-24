@@ -103,7 +103,7 @@ footer section {
   padding-left: 20% !important;
   padding-right: 20% !important;
 }
-footer section div article h3, footer section div article .h3 {
+footer section div article h2, footer section div article .h2 {
   color: #4ebddf !important;
 }
 footer section div article p {
@@ -7763,6 +7763,10 @@ textarea.form-control-lg {
 
 .font-monospace {
   font-family: var(--bs-font-monospace) !important;
+}
+
+.fs-7 {
+  font-size: 0.8rem !important;
 }
 
 .fs-1 {

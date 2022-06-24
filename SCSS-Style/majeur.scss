@@ -1,3 +1,12 @@
+@import "../Projet-SCSS/bootstrap/node_modules/bootstrap/scss/functions";
+@import "../Projet-SCSS/bootstrap/node_modules/bootstrap/scss/variables";
+
+$custom-font-sizes:(
+    7:0.8rem,
+);
+
+$font-sizes: map-merge($custom-font-sizes, $font-sizes);
+
 // import variables custom
 @import "variable.scss";
 @import "customClass.scss";
